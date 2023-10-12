@@ -30,5 +30,8 @@
 		• Fuel Consumption Comb (L/100 km) - (combined fuel consumption)
 		• Fuel Consumption Comb (mpg) – (in mile per gallon)
   		• CO2 Emissions(g/km) – (in grams per kilometre)
-![![image](https://github.com/monsurc1/Regression_Dtree_KNN-on-CO2-emission/assets/7083845/219a4395-1ef8-4a28-a58e-88d25b98a6c2)]
- 
+	![image](https://github.com/monsurc1/Regression_Dtree_KNN-on-CO2-emission/assets/7083845/219a4395-1ef8-4a28-a58e-88d25b98a6c2)
+
+	So, we have 	- Found 10310 instances in 12 attributes.
+			- Found no mussing value by using describe() method.
+			- After renaming the column, it looks like this 
