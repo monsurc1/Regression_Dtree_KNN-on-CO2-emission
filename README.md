@@ -8,9 +8,25 @@
  	[open.canada.ca] website link.
 	It seems that CO2 emissions can vary with the different features.
 	
-	As CO2 emission is one of the major environmental pollution issues in today’s world, I tried to explore the relationship of the features 
+	As CO2 emission is one of the major environmental pollution issues in today’s world, I tried to explore the relationship between the features 
  	against the emission.
 	
 	Multiple linear regression models are performed on this dataset.
 
-**1.2 Data Understanding & Preparation**
+### **1.2 Data Understanding & Preparation**
+	There are a total of 7385 rows and 12 columns. There are a few abbreviations that have been used to describe the features. I am listing them out here. 
+ 	The same can be found in the Data Description sheet.
+	Dataset attributes:
+	• Car Make
+	• Car Model
+	• Vehicle(car) Class
+	• Engine Size(L)
+	• No. of. Cylinders
+	• Transmission Type
+	• Fuel Type ( X = Regular gasoline, Z = Premium gasoline, D = Diesel, E = Ethanol, N = Natural gas)
+	• Fuel Consumption City (L/100 km)
+	• Fuel Consumption Hwy (L/100 km) – (on Highway)
+	• Fuel Consumption Comb (L/100 km) - (combined fuel consumption)
+	• Fuel Consumption Comb (mpg) – (in mile per gallon)
+
+ 
