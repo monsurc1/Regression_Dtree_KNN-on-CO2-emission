@@ -64,11 +64,54 @@
 
    	So, we can say that the model is good enough for unseen data. 
     
-    	**Our take from this project:** When the engine size is small the CO2 emission (air pollution) will be less. Where it is possible,
+    	- **Our take from this project: ** When the engine size is small the CO2 emission (air pollution) will be less. Where it is possible,
 	we should not use bigger engines in our cars.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Decision Tree
+
+### **1.1 Business Understanding**
+	Dataset source: https://www.kaggle.com/datasets/joanabalkn/genderclassification
+
+ 	People's choices are changing. A few years back, the colour pink was a major choice by females, but now males also choose pink for clothing. In this 		report, I look into the gender classification of their preferences by using decision tree algorithm.
+
+  ### **1.2 Data Understanding & Preparation**
+  	In this dataset, there are 5 attributes with 66 instances.
+
+	Attributes are: Favorite Color, Favorite Music, Genre Favorite, Beverage Favorite, Soft Drink, and Gender
+
+	My target variable is Gender. I used OneHot shot to prepare the dataset by dropping Gender. Now, 4 columns became 20.
+
+ ### **1.3 Modeling**
+ 	After splitting the data, I fit the data using the decision tree algorithm. I found a test accuracy of 0.5882352941176471 which is not good. Cross-		validation for the depth of the decision tree was carried out, and it varies from 0.487 to 0.691
+  ![image](https://github.com/monsurc1/Regression_Dtree_KNN-on-CO2-emission/assets/7083845/1b4e8990-a5a9-403c-a4b5-8f339d11b85b)
+
+  	Later, I used the confusion matrix technique. The results are not good as well. We can see so many FP and FN found.
+   ![image](https://github.com/monsurc1/Regression_Dtree_KNN-on-CO2-emission/assets/7083845/ef96a5dd-9847-4449-8b04-51d3acf181f6)
+
+   **Here is the graph for the dataset:**
+   ![image](https://github.com/monsurc1/Regression_Dtree_KNN-on-CO2-emission/assets/7083845/34cf9667-a275-496b-8a6d-06937ca62d76)
+
+### **1.4 Evaluation**
+	It can be concluded that the train & test accuracy for this dataset is not reliable.
+	We cannot predict or tell a gender from the rest of the features of the dataset.
+
+**I used the KNN algorithm on this dataset to see the outcome.**
+
+## **KNN**
+
+### **Modelling**
+![image](https://github.com/monsurc1/Regression_Dtree_KNN-on-CO2-emission/assets/7083845/c865c64a-a4a6-4115-b1df-33ace7fcd386)
+
+### **Evaluation**
+	Test accuracy was found 0.57 which was not good. This dataset is not good for gender classification as well (like the decision tree)
 
 
-  
+
+
+
+
+ 	
 
 
 
