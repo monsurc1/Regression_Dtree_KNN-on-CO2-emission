@@ -104,7 +104,10 @@
 ![image](https://github.com/monsurc1/Regression_Dtree_KNN-on-CO2-emission/assets/7083845/c865c64a-a4a6-4115-b1df-33ace7fcd386)
 
 ### **Evaluation**
-	Test accuracy was found 0.57 which was not good. This dataset is not good for gender classification as well (like the decision tree)
+	Test accuracy was found 0.57 which was not good enough. 
+ 	Also, we can say that this dataset is not good for gender classification as well (like the decision tree).
+
+  
 
 
 
