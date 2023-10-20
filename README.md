@@ -11,7 +11,7 @@
 	As CO2 emission is one of the major environmental pollution issues in today’s world, I tried to explore the relationship between the features 
  	against the emission.
 	
-	Multiple linear regression models are performed on this dataset.
+	Several ML models are performed on this dataset.
 
 ### **1.2 Data Understanding & Preparation**
 	There are a total of 7385 rows and 12 columns. There are a few abbreviations that have been used to describe the features. I am listing them out here. 
